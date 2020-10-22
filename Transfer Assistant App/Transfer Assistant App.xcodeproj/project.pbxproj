@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F782AB125413B0C00E1986D /* CustomUITableView6_list.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F782AB025413B0C00E1986D /* CustomUITableView6_list.xib */; };
 		9D0318A8253D4D460060A090 /* ViewController2_home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0318A7253D4D460060A090 /* ViewController2_home.swift */; };
 		9D0318AD253D6E4A0060A090 /* ViewController3_profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0318AC253D6E4A0060A090 /* ViewController3_profile.swift */; };
 		9D0318B2253D6ECE0060A090 /* ViewController4_schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0318B1253D6ECE0060A090 /* ViewController4_schedule.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F782AB025413B0C00E1986D /* CustomUITableView6_list.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomUITableView6_list.xib; sourceTree = "<group>"; };
 		9D0318A7253D4D460060A090 /* ViewController2_home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2_home.swift; sourceTree = "<group>"; };
 		9D0318AC253D6E4A0060A090 /* ViewController3_profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3_profile.swift; sourceTree = "<group>"; };
 		9D0318B1253D6ECE0060A090 /* ViewController4_schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4_schedule.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		9DBF35AC253403110060B8BB = {
 			isa = PBXGroup;
 			children = (
+				3F782AB025413B0C00E1986D /* CustomUITableView6_list.xib */,
 				9D0318C5253D6F250060A090 /* ViewController8_tips.swift */,
 				9D0318C0253D6F150060A090 /* ViewController7_map.swift */,
 				9D0318BB253D6F060060A090 /* ViewController6_list.swift */,
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DBF35C5253403170060B8BB /* LaunchScreen.storyboard in Resources */,
+				3F782AB125413B0C00E1986D /* CustomUITableView6_list.xib in Resources */,
 				9DBF35C2253403170060B8BB /* Assets.xcassets in Resources */,
 				9DBF35C0253403110060B8BB /* Main.storyboard in Resources */,
 			);
