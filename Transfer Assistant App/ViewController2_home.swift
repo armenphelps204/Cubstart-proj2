@@ -15,7 +15,21 @@ class ViewController2_home: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func goToProfile(_ sender: Any) {
+    }
+    
+    @IBAction func goToSchedule(_ sender: Any) {
+    }
+    
+    @IBAction func goToList(_ sender: Any) {
+    }
+    
+    @IBAction func goToMap(_ sender: Any) {
+    }
+    
+    @IBAction func goToTips(_ sender: Any) {
+    }
+    
     /*
     // MARK: - Navigation
 
