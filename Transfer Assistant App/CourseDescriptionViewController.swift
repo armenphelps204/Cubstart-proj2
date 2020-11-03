@@ -12,11 +12,15 @@ class CourseDescriptionViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.descriptionLabel.text = name
+        
         // Do any additional setup after loading the view.
     }
     
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print(name)
+        self.descriptionLabel.text = name
+    }
     /*
     // MARK: - Navigation
 

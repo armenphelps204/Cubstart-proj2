@@ -17,7 +17,7 @@ class ViewController6_list: UIViewController, UITableViewDataSource, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableViewCourse.delegate = self
+    
         // Do any additional setup after loading the view.
     }
    
@@ -33,20 +33,27 @@ class ViewController6_list: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-
+        print(" \(#function)")
          selectedIndex = indexPath.row
        
-//        performSegue(withIdentifier: "description", sender: self)
+        performSegue(withIdentifier: "description", sender: self)
       
     }
 
     
     override func prepare( for segue: UIStoryboardSegue, sender: Any?){
+        print("✅ \(#function)")
+        
         if segue.identifier == "description"{
-            let vc : CourseDescriptionViewController = segue.destination as! CourseDescriptionViewController
-           
-            vc.name = course_description[selectedIndex]
+            
+            if let indexPath = tableViewCourse.indexPathForSelectedRow{
+                let selectedRow = indexPath.row
+                    let vc : CourseDescriptionViewController = segue.destination as! CourseDescriptionViewController
+                    print(course_description[selectedIndex])
+                    vc.name = course_description[selectedRow]
+            }
         }
+    
     }
 
     /*
