@@ -275,7 +275,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="xUQ-C8-oMl" kind="show" id="hy9-t6-Q7V"/>
+                                            <segue destination="xUQ-C8-oMl" kind="show" identifier="description" id="hy9-t6-Q7V"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -301,7 +301,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AeG-SF-CI0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4721.739130434783" y="77.678571428571431"/>
+            <point key="canvasLocation" x="4674" y="-101"/>
         </scene>
         <!--View Controller7 map-->
         <scene sceneID="R3u-ef-EDr">

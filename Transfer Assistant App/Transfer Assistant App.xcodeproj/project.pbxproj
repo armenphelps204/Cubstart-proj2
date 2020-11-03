@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0514622547B68F000E7136 /* CourseDescription.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0514612547B68F000E7136 /* CourseDescription.storyboard */; };
 		3F77CE0E2547B38500D1862C /* tableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F77CE0D2547B38500D1862C /* tableView.storyboard */; };
-		3F782AB125413B0C00E1986D /* CustomUITableView6_list.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F782AB025413B0C00E1986D /* CustomUITableView6_list.xib */; };
+		3FDE206B254CA3A200C71A8C /* CourseDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDE206A254CA3A200C71A8C /* CourseDescriptionViewController.swift */; };
 		9D0318A8253D4D460060A090 /* ViewController2_home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0318A7253D4D460060A090 /* ViewController2_home.swift */; };
 		9D0318AD253D6E4A0060A090 /* ViewController3_profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0318AC253D6E4A0060A090 /* ViewController3_profile.swift */; };
 		9D0318B2253D6ECE0060A090 /* ViewController4_schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0318B1253D6ECE0060A090 /* ViewController4_schedule.swift */; };
@@ -45,9 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F0514612547B68F000E7136 /* CourseDescription.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CourseDescription.storyboard; sourceTree = "<group>"; };
 		3F77CE0D2547B38500D1862C /* tableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tableView.storyboard; sourceTree = "<group>"; };
-		3F782AB025413B0C00E1986D /* CustomUITableView6_list.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomUITableView6_list.xib; sourceTree = "<group>"; };
+		3FDE206A254CA3A200C71A8C /* CourseDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDescriptionViewController.swift; sourceTree = "<group>"; };
 		9D0318A7253D4D460060A090 /* ViewController2_home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2_home.swift; sourceTree = "<group>"; };
 		9D0318AC253D6E4A0060A090 /* ViewController3_profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3_profile.swift; sourceTree = "<group>"; };
 		9D0318B1253D6ECE0060A090 /* ViewController4_schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4_schedule.swift; sourceTree = "<group>"; };
@@ -99,7 +97,7 @@
 		9DBF35AC253403110060B8BB = {
 			isa = PBXGroup;
 			children = (
-				3F782AB025413B0C00E1986D /* CustomUITableView6_list.xib */,
+				3FDE206A254CA3A200C71A8C /* CourseDescriptionViewController.swift */,
 				9D0318C5253D6F250060A090 /* ViewController8_tips.swift */,
 				9D0318C0253D6F150060A090 /* ViewController7_map.swift */,
 				9D0318BB253D6F060060A090 /* ViewController6_list.swift */,
@@ -135,7 +133,6 @@
 				9DBF35C3253403170060B8BB /* LaunchScreen.storyboard */,
 				9DBF35C6253403170060B8BB /* Info.plist */,
 				3F77CE0D2547B38500D1862C /* tableView.storyboard */,
-				3F0514612547B68F000E7136 /* CourseDescription.storyboard */,
 			);
 			path = "Transfer Assistant App";
 			sourceTree = "<group>";
@@ -263,8 +260,6 @@
 			files = (
 				9DBF35C5253403170060B8BB /* LaunchScreen.storyboard in Resources */,
 				3F77CE0E2547B38500D1862C /* tableView.storyboard in Resources */,
-				3F0514622547B68F000E7136 /* CourseDescription.storyboard in Resources */,
-				3F782AB125413B0C00E1986D /* CustomUITableView6_list.xib in Resources */,
 				9DBF35C2253403170060B8BB /* Assets.xcassets in Resources */,
 				9DBF35C0253403110060B8BB /* Main.storyboard in Resources */,
 			);
@@ -292,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D0318C1253D6F150060A090 /* ViewController7_map.swift in Sources */,
+				3FDE206B254CA3A200C71A8C /* CourseDescriptionViewController.swift in Sources */,
 				9DBF35BD253403110060B8BB /* ViewController.swift in Sources */,
 				9D0318B7253D6EE20060A090 /* ViewController5_feedback.swift in Sources */,
 				9DBF35B9253403110060B8BB /* AppDelegate.swift in Sources */,
