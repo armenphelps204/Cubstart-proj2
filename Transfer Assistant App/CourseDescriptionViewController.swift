@@ -9,6 +9,9 @@ import UIKit
 
 class CourseDescriptionViewController: UIViewController {
     var name = ""
+   
+   
+ 
     @IBOutlet weak var descriptionLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +23,7 @@ class CourseDescriptionViewController: UIViewController {
         super.viewWillAppear(animated)
         print(name)
         self.descriptionLabel.text = name
+        self.descriptionLabel.numberOfLines = 20
     }
     /*
     // MARK: - Navigation
