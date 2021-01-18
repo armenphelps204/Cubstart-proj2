@@ -21,6 +21,8 @@ class ViewController8_tips: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tip1.numberOfLines = 0
+        var vals: Set<String> = ["4", "5"]
+        vals.insert("5")
         self.tip1.text = "📌Be willing to collaborate. You tend to make more friends and study partners when you are the one initiate the conversation. \n---foggysf(reddit)"
         tip2.numberOfLines = 0
         self.tip2.text = "📌Take classes you are interested in and not what everyone else is doing. Only you know yourself best. \n ---foggysf(reddit)"
